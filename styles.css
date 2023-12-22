@@ -20,7 +20,7 @@ body {
 
 .bg-image {
   width: 40%;
-  background: url(bg-img.jpg);
+  background: url(./image/bg-img.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -67,7 +67,7 @@ p {
 
 .main-form {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   background-color: white;
   padding: 10px 40px;
@@ -82,7 +82,7 @@ p {
   gap: 70px;
 }
 
-.form-row > div {
+.form-row>div {
   width: 100%;
   width: min(100%, 300px);
 
@@ -102,23 +102,23 @@ input {
   border: 1px solid #E5E7EB;
   border-radius: 5px;
   height: 25px;
-  /* width: 300px; */
   width: 100%;
   margin-bottom: 25px;
 }
 
 input:focus {
   outline: none;
-  }
+}
 
-input:hover, input:focus {
+input:hover,
+input:focus {
   box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid blue;
 }
 
-.btn {
+.btn,
+.login {
   padding: 10px 40px;
-  
 }
 
 .btn>button {
@@ -133,9 +133,14 @@ input:hover, input:focus {
   box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.1);
   font-weight: 700;
   font-size: 1.1rem;
+
 }
 
 input:valid {
   border: 1px solid green;
 }
 
+span {
+  color: #596D48;
+  font-weight: 700;
+}
